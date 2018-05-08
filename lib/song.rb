@@ -10,4 +10,8 @@ attr_accessor :title, :artist
     self.artist.name
   end
 
+  def name
+    @name
+  end
+
 end
